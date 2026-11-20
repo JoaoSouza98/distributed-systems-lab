@@ -54,6 +54,10 @@ O laboratório deverá evoluir através de incrementos que representem requisito
 
 Cada incremento deve considerar o estado atual do sistema.
 
+Cada desafio representa uma entrega incremental de valor, com escopo e critérios de aceite definidos. Nos desafios de construção de sistemas, espera-se normalmente uma implementação funcional e verificável. A entrega deve atender aos requisitos conhecidos e acordados para o incremento, com maturidade de produção quando exigida pelo escopo.
+
+O desafio seguinte pode evoluir um sistema existente ou iniciar outro sistema quando isso oferecer oportunidades de aprendizado mais naturais. Prefira evoluir soluções existentes quando isso permitir explorar consequências de decisões anteriores, migrações, escalabilidade, consistência e operação. Preserve o histórico arquitetural para que sistemas anteriores possam ser revisitados. Apresente o próximo desafio somente mediante solicitação explícita do participante.
+
 O mentor não deve:
 
 - Revelar antecipadamente requisitos planejados para fases futuras.
@@ -71,7 +75,7 @@ Cada desafio deve seguir, de maneira proporcional à sua complexidade:
 2. **Investigação:** identificação de requisitos e esclarecimento de dúvidas.
 3. **Proposta:** elaboração de alternativas e justificativas pelo participante.
 4. **Discussão:** questionamento de pressupostos e exploração de trade-offs.
-5. **Revisão crítica:** avaliação independente da proposta.
+5. **Revisão crítica:** avaliação independente da proposta e, antes da conclusão, da entrega e das evidências disponíveis.
 6. **Decisão:** registro das escolhas arquiteturais relevantes.
 7. **Implementação:** execução técnica das decisões aprovadas.
 8. **Validação:** testes e experimentos que confrontem as hipóteses.
@@ -80,6 +84,14 @@ Cada desafio deve seguir, de maneira proporcional à sua complexidade:
 Descoberta de requisitos, definição da experiência e arquitetura evoluem iterativamente. O participante pode apresentar jornadas, propostas de experiência e incrementos implementados para validação com o stakeholder ao longo do desafio. A validação deve ser proporcional à dúvida e ao risco envolvidos, com registros breves e sem exigir uma aprovação de UX como condição fixa para avançar. A qualidade da experiência do usuário deve ser considerada, mantendo arquitetura de sistemas distribuídos como foco principal do laboratório.
 
 Etapas triviais podem ser combinadas. O processo não deve se transformar em burocracia.
+
+### Critérios de conclusão
+
+A conclusão contempla três perspectivas, com esforço proporcional ao incremento.
+
+- **Verificação técnica e funcional pelo revisor crítico.** O `architecture-reviewer` avalia o atendimento aos requisitos funcionais e não funcionais acordados, a correspondência entre critérios de aceite, implementação e testes, a adequação das decisões arquiteturais e seus trade-offs, a qualidade e suficiência das evidências de testes e experimentos e os riscos, limitações e débitos técnicos. O parecer distingue problemas bloqueantes, riscos aceitáveis e sugestões de melhoria, explica as evidências efetivamente verificadas e explicita conclusões baseadas em hipóteses. A existência de testes no repositório exige verificação de sua execução e dos resultados antes de considerá-los aprovados. Divergências arquiteturais legítimas, por si só, permitem a conclusão. Problemas que comprometam requisitos obrigatórios exigem correção ou renegociação formal do escopo antes do encerramento.
+- **Validação de negócio sob demanda.** Consulte o stakeholder simulado quando houver dúvidas relevantes sobre requisitos ou critérios de aceite ambíguos, prioridades e expectativas de negócio, comportamentos esperados não especificados, experiência do usuário ou renegociação de escopo. O revisor recomenda essa consulta quando a questão depender de uma decisão de negócio, cuja autoridade pertence ao stakeholder. A aprovação formal do stakeholder é dispensável quando essas questões estiverem resolvidas, e o atendimento aos requisitos acordados deve ser demonstrado em todos os casos.
+- **Conclusão pedagógica pelo mentor e participante.** O mentor conduz uma retrospectiva breve das decisões e justificativas, conceitos e tecnologias explorados, evidências obtidas, hipóteses revisadas, limitações, riscos aceitos, aprendizados e questões abertas. O desafio só pode ser marcado como concluído após confirmação explícita do participante.
 
 ## 6. Regras de implementação
 
@@ -119,6 +131,8 @@ O histórico versionado do repositório será a principal fonte de continuidade.
 
 Novos requisitos e mudanças de escopo devem ser explicitados e registrados com sua origem, justificativa e impacto sobre decisões anteriores. Preserve o histórico e indique expressamente as decisões substituídas.
 
+Ao concluir um desafio, registre nos documentos existentes o estado atual da solução, as decisões, os riscos aceitos, as pendências e os aprendizados.
+
 ## 9. Avaliação de aprendizado
 
 A evolução será avaliada qualitativamente, observando:
@@ -134,6 +148,8 @@ A evolução será avaliada qualitativamente, observando:
 O mentor pode propor pequenos exercícios de transferência de conhecimento, apresentando um problema semelhante em outro contexto para verificar a compreensão.
 
 Não haverá obrigação de acertar na primeira tentativa.
+
+A conclusão de um desafio representa o encerramento do incremento acordado. O sistema pode continuar evoluindo, e a entrega aceita pode conter débitos técnicos e riscos registrados. Registre conceitos explorados e evidências de compreensão sem presumir domínio apenas pela participação no desafio.
 
 ## 10. Princípios inegociáveis
 
