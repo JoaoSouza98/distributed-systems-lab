@@ -1,8 +1,12 @@
 # Progresso do laboratório
 
-- **Estado atual** — ambiente pedagógico preparado. Primeiro desafio aguardando solicitação do participante.
-- **Desafios e requisitos** — nenhum desafio apresentado. [Registros de desafios](challenges/README.md)
-- **Arquitetura e decisões** — arquitetura a definir durante os desafios. [ADRs](adr/README.md)
+- **Desafio atual** — [001 — Reserva de salas](challenges/001-reserva-de-salas.md), aguardando proposta.
+- **Estado da discussão** — escopo inicial esclarecido com operações. Decisão automática, consulta de disponibilidade, criação, consulta do resultado e cancelamento pelo titular. Identidades de teste aceitas no laboratório. Proposta e implementação pendentes.
+- **Arquitetura e decisões** — nenhuma decisão registrada. [ADRs](adr/README.md)
+- **Hipóteses** — nenhuma registrada pelo participante.
+- **Questões pendentes** — nenhuma questão de negócio pendente nesta rodada.
+- **Próximo passo** — o participante esboça a proposta e explicita as premissas que sustentam suas escolhas.
+- **Metodologia** — descoberta e validação contínuas com stakeholders incorporadas. [Template de experiência do Desafio 001](challenges/001-experiencia-usuario.md) disponível para preenchimento pelo participante.
 - **Experimentos e resultados** — nenhum experimento realizado. [Registros de experimentos](experiments/README.md)
 - **Conceitos, aprendizados e dúvidas** — a registrar durante os desafios.
 

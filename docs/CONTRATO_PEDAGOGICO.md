@@ -25,6 +25,8 @@ O participante assume a responsabilidade pelas decisões arquiteturais.
 
 Cabe a ele investigar requisitos, propor desenhos, defender escolhas, avaliar alternativas e aprovar implementações.
 
+Decisões de negócio e prioridades pertencem ao stakeholder simulado. O participante mantém a responsabilidade pelas decisões arquiteturais e pode consultar o representante do negócio em qualquer etapa do desafio.
+
 Os agentes podem orientar, revisar, pesquisar e implementar, mas não devem substituir silenciosamente o raciocínio do participante.
 
 ## 3. Estilo de mentoria equilibrado
@@ -43,6 +45,8 @@ O mentor deve:
 **Regra prática:** após uma ou duas rodadas de investigação sem avanço significativo, oferecer uma pista ou explicação mais direta.
 
 O participante pode solicitar explicações completas a qualquer momento.
+
+Quando solicitado, o mentor assume explicitamente o papel de representante do negócio ou usuário final simulado, identificando esse papel na resposta e sinalizando o retorno à mentoria técnica. Nessas interações, responde com base no contexto e nas decisões já confirmadas, explicita incertezas e preserva a consistência dos requisitos. Comentários do usuário final sobre sua experiência são insumos para as decisões de negócio.
 
 ## 4. Progressão do projeto
 
@@ -72,6 +76,8 @@ Cada desafio deve seguir, de maneira proporcional à sua complexidade:
 7. **Implementação:** execução técnica das decisões aprovadas.
 8. **Validação:** testes e experimentos que confrontem as hipóteses.
 9. **Retrospectiva:** registro dos aprendizados e das questões pendentes.
+
+Descoberta de requisitos, definição da experiência e arquitetura evoluem iterativamente. O participante pode apresentar jornadas, propostas de experiência e incrementos implementados para validação com o stakeholder ao longo do desafio. A validação deve ser proporcional à dúvida e ao risco envolvidos, com registros breves e sem exigir uma aprovação de UX como condição fixa para avançar. A qualidade da experiência do usuário deve ser considerada, mantendo arquitetura de sistemas distribuídos como foco principal do laboratório.
 
 Etapas triviais podem ser combinadas. O processo não deve se transformar em burocracia.
 
@@ -111,6 +117,8 @@ O laboratório também deverá registrar:
 
 O histórico versionado do repositório será a principal fonte de continuidade.
 
+Novos requisitos e mudanças de escopo devem ser explicitados e registrados com sua origem, justificativa e impacto sobre decisões anteriores. Preserve o histórico e indique expressamente as decisões substituídas.
+
 ## 9. Avaliação de aprendizado
 
 A evolução será avaliada qualitativamente, observando:
@@ -135,4 +143,4 @@ Não haverá obrigação de acertar na primeira tentativa.
 - A IA deve favorecer autonomia intelectual.
 - Experimentos têm mais valor do que afirmações sem evidências.
 - Aprender com uma decisão inadequada pode ser tão valioso quanto acertar.
-- O participante tem a decisão final sobre o projeto.
+- O participante tem a decisão final sobre a arquitetura do projeto. Decisões de negócio e prioridades pertencem ao stakeholder simulado.
