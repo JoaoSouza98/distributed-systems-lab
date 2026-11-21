@@ -20,6 +20,11 @@ Uma empresa coordena as reservas de salas de reunião por um canal interno do Mi
 
 Para o primeiro incremento, operações prefere que os funcionários consigam usar o fluxo sem instalar outro aplicativo. Uma página interna acessível pelo navegador, com o link divulgado no canal atual do Teams, seria bem aceita. Usar o Teams como interface também é uma opção. A escolha do canal fica com o participante, e a integração com o Teams é opcional.
 
+## Esclarecimentos com stakeholders
+
+- **2026-11-21 — representante de operações simulado:** o participante perguntou se capacidade e recursos das salas devem ser informados dentro do sistema. Confirmado que, ao escolher uma sala para reservar, o funcionário deve conseguir consultar no próprio sistema sua capacidade de participantes e os recursos oferecidos, incluindo se possui videoconferência. Isso explicita o apoio à escolha já prevista nos requisitos; não confirma a hipótese de filtragem automática por quantidade de participantes ou recursos, nem define o formato da interface. O impacto é disponibilizar essas informações na experiência de escolha, sem alterar as capacidades e os recursos já registrados.
+- **2026-11-21 — representante de operações simulado:** ao esclarecer se uma tentativa recusada por conflito antes do registro precisa aparecer posteriormente, operações confirmou que basta comunicar claramente o conflito no momento da tentativa. Não é obrigatório criar um item de reserva recusada nem oferecer histórico dessas recusas imediatas. Isso esclarece a interpretação de “consultar seu resultado”, sem eliminar a consulta das reservas efetivadas ou alterar a regra de não sobreposição. A listagem de recusas no rascunho passa a ser uma opção não exigida pelo negócio; a persistência técnica das tentativas cabe ao participante.
+
 ## Hipóteses e questões em aberto
 
 - **Hipóteses do participante** — nenhuma registrada.
